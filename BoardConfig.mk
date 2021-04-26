@@ -24,3 +24,6 @@ DEVICE_PATH := device/oneplus/enchilada
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# Recovery
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/enchilada_ramdisk-twrp.cpio
