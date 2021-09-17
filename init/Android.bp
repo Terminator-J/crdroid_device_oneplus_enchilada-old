@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2021 crDroid Android Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "init_enchilada",
+    srcs: ["init_enchilada.cpp"],
+    whole_static_libs: ["//device/oneplus/sdm845-common:libinit_sdm845"],
+    include_dirs: ["system/core/init"],
+    recovery_available: true,
+}
