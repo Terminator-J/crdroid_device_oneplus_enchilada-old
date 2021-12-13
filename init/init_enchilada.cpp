@@ -11,10 +11,10 @@
 
 static const variant_info_t enchilada_info = {
     .brand = "OnePlus",
-    .device = "enchilada",
+    .device = "OnePlus6",
     .name = "OnePlus6",
     .model = "ONEPLUS A6003",
-    .build_fingerprint = "OnePlus/OnePlus6/OnePlus6:8.1.0/OPM1.171019.011/06140300:user/release-keys",
+    .build_fingerprint = "OnePlus/OnePlus6/OnePlus6:11/RKQ1.201217.002/2111252325:user/release-keys",
 };
 
 void vendor_load_properties() {

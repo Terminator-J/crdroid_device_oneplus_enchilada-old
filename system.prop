@@ -1,0 +1,4 @@
+# Insert enchilada-specific system properties here
+
+## Bluetooth
+net.bt.name=OnePlus6
